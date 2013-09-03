@@ -98,6 +98,8 @@ public class Page extends XmlRpcMapped implements StringHeader {
 
   String wp_slug;
 
+  String wp_post_thumbnail;
+
   /**
    * @return the categories
    */
@@ -493,5 +495,13 @@ public class Page extends XmlRpcMapped implements StringHeader {
    */
   public void setWp_slug(String wp_slug) {
     this.wp_slug = wp_slug;
+  }
+
+  public String getWp_post_thumbnail() {
+    return wp_post_thumbnail;
+  }
+
+  public void setWp_post_thumbnail(String wp_post_thumbnail) {
+    this.wp_post_thumbnail = wp_post_thumbnail;
   }
 }
